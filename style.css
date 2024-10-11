@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css2?
+family=Poppins:wght@300;400;500;600;700;800;900&
+display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(18,15, 34),black);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    height: 460px;
+    margin: 25px;
+    background: linear-gradient(rgb(18,15, 34),rgb(14, 7, 29));
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #fff;
+    transition: 0.3s;
+}
+
+.card-header {
+    width: 100%;
+    height: 294px;
+    overflow: hidden;
+}
+
+.card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.card-body {
+    height: 116px;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-titulo {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 12px;
+}
+
+.card-footer {
+    margin-top: 1px;
+    text-align: center;
+    background-color: rgb(20, 20, 46);
+}
+
+.card-footer a {
+    color: #fff;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.projetos{
+    margin-top: 90px;
+    font-size: 70px;
+    color: #fff;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nome {
+    margin-top: 140px;
+    margin-bottom: 70px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.img-perfil{
+    margin-top: 35px;
+}
+
+.img-profile {
+    border-radius: 10px;
+}
+
+.card-perfil {
+    width: 450px;
+    height: 500px;
+    margin: 25px;
+    background: linear-gradient(rgb(18,15, 34),rgb(14, 7, 29));
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px #fff;
+    transition: 0.3s;
+    margin
+}
+
+.desc {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.cesupa {
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.cesupa:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
